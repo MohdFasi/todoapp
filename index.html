@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="input">
+        <h1>add todo</h1>
+        <input type="text" id="title">
+        <input type="text" id="desc">
+        <button onclick="addtodo()" id="addtn">Add Todo</button>
+    </div>
+    <button onclick="todo()" id="addbtn"></button>
+    <div class="container">
+        <div class="item">
+            <input type="checkbox">
+            <h1>title</h1>
+            <p>description</p>
+            <button onclick="">edit</button>
+            <button onclick="">delete</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
